@@ -1,15 +1,10 @@
 body {
   display: grid;
+  margin-top: 60px;
   gap: 60px;
   background-color: #f7f7f7;
   font-family:Arial, Helvetica, sans-serif;
   margin: 0px;
-}
-
-.website-title {
-  font-size: 36px;
-  text-align: center;
-  margin: 36px;
 }
 
 .options {
@@ -59,7 +54,7 @@ p {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   grid-column: 2 / 3;
 }
 

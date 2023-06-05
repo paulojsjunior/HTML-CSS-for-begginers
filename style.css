@@ -43,6 +43,7 @@ a {
   place-self: center;
   padding: 30px 40px;
   text-align: end;
+  position: relative;
 }
 
 .title-description {
@@ -50,6 +51,16 @@ a {
   margin: 0px;
   padding: 0px;
   /* background-color: #f7f7f7; */
+}
+
+.detail {
+  width: 60px;
+  height: 4px;
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  top: -10px;
+  right: -30px;
 }
 
 p {

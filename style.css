@@ -34,16 +34,17 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 1000px;
-  background-color: #fff;
 }
 
 .description {
-  display: grid;
-  place-items: end;
-  place-self: center;
-  padding: 30px 40px;
-  text-align: end;
+  background-color: #fff;
+  text-align: right;
+  padding: 40px;
   position: relative;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
 }
 
 .title-description {

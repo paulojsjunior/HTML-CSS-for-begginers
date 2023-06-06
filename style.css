@@ -95,3 +95,14 @@ img {
   padding: 40px;
   background-color: #fff;
 }
+
+.topics-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.topics-item p {
+  grid-column: 2;
+}

@@ -88,7 +88,7 @@ img {
   text-transform: uppercase;
   padding: 40px;
   text-align: end;
-  /* align-self: center; */
+  align-self: center;
 }
 
 .topics {

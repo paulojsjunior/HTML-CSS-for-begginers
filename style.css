@@ -8,6 +8,9 @@ body {
   justify-items: center;
 }
 
+p, h1, h2, h3, a {
+  margin: 0px;
+}
 .logo {
   display: block;
 }
@@ -60,7 +63,7 @@ a {
   background-color: red;
   display: inline-block;
   position: absolute;
-  top: -10px;
+  top: 30px;
   right: -30px;
 }
 
@@ -82,10 +85,13 @@ img {
 .streights-title {
   color:#c6c6c6;
   font-size: 64px;
+  text-transform: uppercase;
+  padding: 40px;
   text-align: end;
-  margin: 0px;
+  /* align-self: center; */
 }
 
 .topics {
-  margin: 40px;
+  padding: 40px;
+  background-color: #fff;
 }

@@ -34,7 +34,7 @@ a {
 }
 
 .options a:hover{
-  margin: 0px;
+  /* margin: 0px; */
   border: 2px solid red;
   border-radius: 4px;
 }

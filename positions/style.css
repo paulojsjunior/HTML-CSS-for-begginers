@@ -57,7 +57,7 @@ a {
 }
 
 .title-description {
-  font-size: 32px;
+  font-size: 2rem;
   margin: 0px;
   padding: 0px;
   /* background-color: #f7f7f7; */
@@ -74,7 +74,7 @@ a {
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 img {
@@ -90,7 +90,7 @@ img {
 
 .streights-title {
   color:#c6c6c6;
-  font-size: 64px;
+  font-size: 4rem;
   text-transform: uppercase;
   padding: 40px;
   text-align: end;

@@ -70,14 +70,8 @@ ul {
   justify-items: end;
 }
 
-#label-introduction {
-  font-size: 2rem;
-  margin: 0px;
-  padding: 0px;
-  /* background-color: #f7f7f7; */
-}
-
-.detail {
+.description::before {
+  content: "";
   width: 60px;
   height: 4px;
   background-color: red;
@@ -85,6 +79,13 @@ ul {
   position: absolute;
   top: 30px;
   right: -30px;
+}
+
+#label-introduction {
+  font-size: 2rem;
+  margin: 0px;
+  padding: 0px;
+  /* background-color: #f7f7f7; */
 }
 
 p {

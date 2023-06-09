@@ -141,6 +141,7 @@ img {
 
 .topics-item:hover {
   border-left: 4px solid red;
+  transition-duration: .1s;
 }
 
 .footer {

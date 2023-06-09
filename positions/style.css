@@ -101,6 +101,11 @@ img {
   border-radius: 4px;
 }
 
+.button:hover {
+  background-color: darkred;
+  transition-duration: .3s;
+}
+
 .streights-title {
   color:#c6c6c6;
   font-size: 4rem;

@@ -95,6 +95,7 @@ img {
   padding: 40px;
   text-align: end;
   align-self: center;
+  background-image: url("img/onda.svg");
 }
 
 .topics {

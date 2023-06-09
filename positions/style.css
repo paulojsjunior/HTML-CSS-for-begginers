@@ -45,6 +45,7 @@ ul {
   color: #000;
   padding: 15px 30px;
   border-radius: 4px;
+  border: 2px solid transparent;
 }
 
 .options a:hover{
@@ -69,7 +70,7 @@ ul {
   justify-items: end;
 }
 
-.title-description {
+#label-indoduction {
   font-size: 2rem;
   margin: 0px;
   padding: 0px;
@@ -106,7 +107,7 @@ img {
   transition-duration: .3s;
 }
 
-.streights-title {
+#label-straights {
   color:#c6c6c6;
   font-size: 4rem;
   text-transform: uppercase;
@@ -117,6 +118,7 @@ img {
 }
 
 .topics {
+  display: inline-block;
   padding: 40px;
   background-color: #fff;
 }
@@ -126,6 +128,10 @@ img {
   grid-template-columns: auto 1fr;
   gap: 10px 20px;
   padding: 20px;
+}
+
+.topics-item:nth-child(odd) {
+  background-color: #f7f7f7;
 }
 
 .topics-item p {

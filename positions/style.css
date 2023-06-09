@@ -12,12 +12,25 @@ p, h1, h2, h3, a {
   margin: 0px;
 }
 .logo {
-  display: block;
+  display: flex;
+  margin: 0 auto;
 }
 
 a {
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.header {
+  display: grid;
+  justify-items: center;
+  gap: 60px;
+
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
 }
 
 .options {
@@ -34,7 +47,6 @@ a {
 }
 
 .options a:hover{
-  /* margin: 0px; */
   border: 2px solid red;
   border-radius: 4px;
 }

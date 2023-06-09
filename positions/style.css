@@ -138,6 +138,10 @@ img {
   grid-column: 2;
 }
 
+.topics-item:hover {
+  border-left: 4px solid red;
+}
+
 .footer {
   background-color: #fff;
   width: 100%;

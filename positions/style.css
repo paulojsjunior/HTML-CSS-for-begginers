@@ -11,6 +11,7 @@ body {
 p, h1, h2, h3, a {
   margin: 0px;
 }
+
 .logo {
   display: flex;
   margin: 0 auto;
@@ -51,7 +52,7 @@ ul {
   border-radius: 4px;
 }
 
-.grid {
+.main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 1000px;

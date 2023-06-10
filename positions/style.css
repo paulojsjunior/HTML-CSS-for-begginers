@@ -12,21 +12,15 @@ p, h1, h2, h3, a {
   margin: 0px;
 }
 
-.logo {
-  display: flex;
-  margin: 0 auto;
+
+p {
+  font-size: 1.25rem;
 }
+
 
 a {
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.header {
-  display: grid;
-  justify-items: center;
-  gap: 60px;
-
 }
 
 ul {
@@ -34,13 +28,19 @@ ul {
   margin: 0px;
 }
 
-.options {
+.header {
+  display: grid;
+  justify-items: center;
+  gap: 60px;
+}
+
+.menu-options {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
 }
 
-.options a {
+.menu-options a {
   background-color: #fff;
   color: #000;
   padding: 15px 30px;
@@ -48,9 +48,10 @@ ul {
   border: 2px solid transparent;
 }
 
-.options a:hover{
+.menu-options a:hover{
   border: 2px solid red;
   border-radius: 4px;
+  transition-duration: .1s;
 }
 
 .main {
@@ -60,14 +61,14 @@ ul {
 }
 
 .description {
-  background-color: #fff;
-  text-align: right;
-  padding: 40px;
-  position: relative;
   display: grid;
-  gap: 20px;
+  position: relative;
   align-content: center;
   justify-items: end;
+  padding: 40px;
+  gap: 20px;
+  background-color: #fff;
+  text-align: right;
 }
 
 .description::before {
@@ -75,7 +76,7 @@ ul {
   width: 60px;
   height: 4px;
   background-color: red;
-  display: inline-block;
+  /* display: inline-block; */
   position: absolute;
   top: 30px;
   right: -30px;
@@ -88,19 +89,16 @@ ul {
   /* background-color: #f7f7f7; */
 }
 
-p {
-  font-size: 1.25rem;
-}
-
-img {
+.bike-image {
   max-width: 100%;
 }
 
 .button {
-  color: #fff;
-  background-color: red;
+  display: inline-block;
   padding: 15px 25px;
   border-radius: 4px;
+  background-color: red;
+  color: #fff;
 }
 
 .button:hover {
@@ -109,19 +107,19 @@ img {
 }
 
 #label-straights {
-  color:#c6c6c6;
+  background-image: url("img/onda.svg");
+  align-self: center;
+  text-align: end;
+  padding: 40px;
   font-size: 4rem;
   text-transform: uppercase;
-  padding: 40px;
-  text-align: end;
-  align-self: center;
-  background-image: url("img/onda.svg");
+  color:#c6c6c6;
 }
 
 .topics {
-  display: inline-block;
-  padding: 40px;
+  display: block;
   background-color: #fff;
+  padding: 40px;
 }
 
 .topics-item {
@@ -131,12 +129,12 @@ img {
   padding: 20px;
 }
 
-.topics-item:nth-child(odd) {
-  background-color: #f7f7f7;
-}
-
 .topics-item p {
   grid-column: 2;
+}
+
+.topics-item:nth-child(odd) {
+  background-color: #f7f7f7;
 }
 
 .topics-item:hover {

@@ -82,6 +82,14 @@ ul {
   right: -30px;
 }
 
+/* .description-image {
+  max-height: 100%;
+}
+
+.description-image img {
+  height: 100%;
+} */
+
 #label-introduction {
   font-size: 2rem;
   margin: 0px;
@@ -149,3 +157,9 @@ ul {
   padding: 40px;
   box-sizing: border-box;
 }
+
+/* @media (max-width: 480px) {
+  .header {
+    
+  }
+} */

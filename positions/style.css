@@ -66,7 +66,7 @@ ul {
 
 .description {
   display: grid;
-  position: relative;
+  /* position: relative; */
   align-content: center;
   justify-items: end;
   padding: 40px;
@@ -111,7 +111,7 @@ ul {
   transition-duration: .3s;
 }
 
-#label-straights {
+#label-streights {
   background-image: url("img/onda.svg");
   align-self: center;
   text-align: end;
@@ -152,4 +152,53 @@ ul {
   text-align: center;
   padding: 40px;
   box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .main-streights {
+    grid-template-columns: 1fr;
+  }
+  
+  #label-streights {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .header {
+    gap: 30px;
+  }
+
+  .main {
+    grid-template-columns: 1fr;
+  }
+
+  .description {
+    text-align: center;
+    justify-items: center;
+  }
+
+  .description::before {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+
+
+  .menu-options {
+    display: none;
+  }
+  #label-streights {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }

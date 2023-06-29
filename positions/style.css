@@ -57,6 +57,7 @@ ul {
 
 .header {
   display: grid;
+  grid-template-columns: auto;
   justify-items: center;
   gap: 60px;
 }
@@ -68,6 +69,7 @@ ul {
 }
 
 .menu-options a {
+  display: block;
   background-color: var(--bk-color-a);
   color: var(--a-color);
   padding: 15px 30px;
@@ -213,9 +215,9 @@ ul {
 @media (max-width: 425px) {
 
 
-  .menu-options {
+  /* .menu-options {
     display: none;
-  }
+  } */
   #label-streights {
     font-size: 3rem;
   }

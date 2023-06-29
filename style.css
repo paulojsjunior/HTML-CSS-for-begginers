@@ -91,7 +91,6 @@ ul {
 
 .description {
   display: grid;
-  /* position: relative; */
   align-content: center;
   justify-items: end;
   padding: 40px;
@@ -214,9 +213,9 @@ ul {
 
 @media (max-width: 425px) {
 
-  img {
+  /* img {
     max-width: fit-content;
-  }
+  } */
 
   #label-streights {
     font-size: 3rem;

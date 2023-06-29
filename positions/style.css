@@ -1,9 +1,17 @@
+:root {
+  --bk-color-general: #f7f7f7;
+  --bk-color-a: #fff;
+  --a-color: #000;
+  --hover-color-border: red;
+  --hover-color-darker: darkred;
+}
+
 body {
   display: grid;
   margin: 0px;
   margin-top: 60px;
   gap: 60px;
-  background-color: #f7f7f7;
+  background-color: var(--bk-color-general);
   font-family:Arial, Helvetica, sans-serif;
   justify-items: center;
 }
@@ -45,15 +53,15 @@ ul {
 }
 
 .menu-options a {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--bk-color-a);
+  color: var(--a-color);
   padding: 15px 30px;
   border-radius: 4px;
   border: 2px solid transparent;
 }
 
 .menu-options a:hover{
-  border: 2px solid red;
+  border: 2px solid var(--hover-color-border);
   border-radius: 4px;
   transition-duration: .1s;
 }
@@ -71,7 +79,7 @@ ul {
   justify-items: end;
   padding: 40px;
   gap: 20px;
-  background-color: #fff;
+  background-color: var(--bk-color-a);
   text-align: right;
 }
 
@@ -79,7 +87,7 @@ ul {
   content: "";
   width: 60px;
   height: 4px;
-  background-color: red;
+  background-color: var(--hover-color-border);
   /* display: inline-block; */
   position: absolute;
   top: 30px;
@@ -95,19 +103,18 @@ ul {
   font-size: 2rem;
   margin: 0px;
   padding: 0px;
-  /* background-color: #f7f7f7; */
 }
 
 .button {
   display: inline-block;
   padding: 15px 25px;
   border-radius: 4px;
-  background-color: red;
+  background-color: var(--hover-color-border);
   color: #fff;
 }
 
 .button:hover {
-  background-color: darkred;
+  background-color: var(--hover-color-darker);
   transition-duration: .3s;
 }
 
@@ -122,7 +129,7 @@ ul {
 }
 
 .topics {
-  background-color: #fff;
+  background-color:var(--bk-color-a);
   padding: 40px;
 }
 
@@ -138,16 +145,16 @@ ul {
 }
 
 .topics-item:nth-child(odd) {
-  background-color: #f7f7f7;
+  background-color: var(--bk-color-general);
 }
 
 .topics-item:hover {
-  border-left: 4px solid red;
+  border-left: 4px solid var(--hover-color-border);
   transition-duration: .1s;
 }
 
 .footer {
-  background-color: #fff;
+  background-color: var(--bk-color-a);
   width: 100%;
   text-align: center;
   padding: 40px;

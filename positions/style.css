@@ -2,8 +2,22 @@
   --bk-color-general: #f7f7f7;
   --bk-color-a: #fff;
   --a-color: #000;
+  --subtitle-color: #cfcfcf;
   --hover-color-border: red;
   --hover-color-darker: darkred;
+  --wave: url("img/onda.svg");
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bk-color-general: #1A1A1A;
+    --bk-color-a: #000;
+    --a-color: #fff;
+    --subtitle-color: #4F4F4F;
+    --hover-color-border: red;
+    --hover-color-darker: darkred;
+    --wave: url("img/onda-dark.svg");
+  }
 }
 
 body {
@@ -17,6 +31,7 @@ body {
 }
 
 p, h1, h2, h3, a {
+  color: var(--a-color);
   margin: 0px;
 }
 
@@ -110,7 +125,7 @@ ul {
   padding: 15px 25px;
   border-radius: 4px;
   background-color: var(--hover-color-border);
-  color: #fff;
+  color: var(--a-color);
 }
 
 .button:hover {
@@ -119,13 +134,13 @@ ul {
 }
 
 #label-streights {
-  background-image: url("img/onda.svg");
+  background-image: var(--wave);
   align-self: center;
   text-align: end;
   padding: 40px;
   font-size: 4rem;
   text-transform: uppercase;
-  color:#c6c6c6;
+  color:var(--subtitle-color);
 }
 
 .topics {

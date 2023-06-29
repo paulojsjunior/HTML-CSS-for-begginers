@@ -211,12 +211,12 @@ ul {
   }
 }
 
-/* @media (max-width: 425px) {
+@media (max-width: 425px) {
   #label-streights {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   p {
     font-size: 1rem;
   }
-} */
+}

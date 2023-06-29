@@ -112,7 +112,6 @@ ul {
 }
 
 .description-image img {
-  display: block;
   object-fit: cover;
   height: 100%;
 }
@@ -214,6 +213,11 @@ ul {
 }
 
 @media (max-width: 425px) {
+
+  .description-image img {
+  object-fit:fill;
+  height: initial;
+}
 
   #label-streights {
     font-size: 3rem;

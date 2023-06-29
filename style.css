@@ -36,7 +36,7 @@ p, h1, h2, h3, a {
 }
 
 img {
-  max-width: 100%;
+  max-width: fit-content;
   display: block;
 }
 
@@ -213,12 +213,9 @@ ul {
 }
 
 @media (max-width: 425px) {
-
-  .description-image img {
-  object-fit:fill;
-  height: initial;
-}
-
+  .main {
+    grid-template-columns: 1fr;
+  }
   #label-streights {
     font-size: 3rem;
   }

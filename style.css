@@ -211,12 +211,7 @@ ul {
   }
 }
 
-@media (max-width: 425px) {
-
-  /* img {
-    max-width: fit-content;
-  } */
-
+/* @media (max-width: 425px) {
   #label-streights {
     font-size: 3rem;
   }
@@ -224,4 +219,4 @@ ul {
   p {
     font-size: 1rem;
   }
-}
+} */

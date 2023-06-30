@@ -201,6 +201,11 @@ ul {
     grid-template-columns: 1fr;
   }
 
+  .description-image img {
+    width: auto;
+    height: auto;
+  }
+  
   .description {
     text-align: center;
     justify-items: center;

@@ -212,6 +212,11 @@ ul {
 }
 
 @media (max-width: 425px) {
+  .description-image img {
+    width: auto;
+    height: auto;
+  }
+
   #label-streights {
     font-size: 3rem;
   }
